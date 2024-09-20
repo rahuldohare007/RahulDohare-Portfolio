@@ -1,3 +1,4 @@
+import About from "@/components/About";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import { Outfit } from "next/font/google";
@@ -13,6 +14,7 @@ export default function Home() {
       <div className={outfit.className}>
         <Navbar />
         <Hero />
+        <About />
       </div>
     </>
   );
