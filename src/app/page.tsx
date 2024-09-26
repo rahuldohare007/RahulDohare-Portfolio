@@ -13,6 +13,11 @@ const outfit = Outfit({
   subsets: ["latin"], // Specify subset if needed
 });
 
+export const metadata = {
+  title: "Rahul Dohare",
+  description: "My portfolio website",
+}
+
 export default function Home() {
   return (
     <>
