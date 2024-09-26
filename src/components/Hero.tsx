@@ -23,7 +23,7 @@ export default function Hero() {
         </div>
 
         <motion.div
-          className="absolute left-[100px] top-[300px]"
+          className="hidden md:block absolute left-[100px] top-[300px]"
           drag
           dragConstraints={containerRef}
           animate={{
@@ -46,7 +46,7 @@ export default function Hero() {
         </motion.div>
 
         <motion.div
-          className="absolute right-[220px] top-[20px]"
+          className="hidden md:block absolute right-[220px] top-[20px]"
           drag
           dragConstraints={containerRef}
           animate={{
