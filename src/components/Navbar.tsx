@@ -6,10 +6,11 @@ import { motion } from "framer-motion";
 
 const navLinks = [
   { title: "About", path: "#about" },
-  { title: "Resume", path: "#resume" },
+  { title: "Projects", path: "#projects" },
+  { title: "Skills", path: "#skills" },
   { title: "Poetry", path: "https://www.instagram.com/rahuldoharepoetry/" },
-  { title: "Blog", path: "https://www.cyborgcoding.com/" },
-  { title: "Portfolio", path: "#portfolio" },
+  { title: "Blog", path: "https://cyborgcoding007.blogspot.com/" },
+  { title: "Contact", path: "#contact" },
 ];
 
 export default function Navbar() {

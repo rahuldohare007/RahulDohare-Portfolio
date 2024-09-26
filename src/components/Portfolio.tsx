@@ -47,7 +47,7 @@ export default function Portfolio() {
   return (
     <div
       className="text-white bg-gradient-to-b from-black to-[#381a5f] py-18 mt-16"
-      id="portfolio"
+      id="projects"
     >
       <h1 className="text-white text-6xl w-full text-center font-semibold my-2">
         Selected <span className="text-orange-400 ml-4">Projects</span>
