@@ -10,7 +10,6 @@ const navLinks = [
   { title: "Skills", path: "#skills" },
   { title: "Poetry", path: "https://www.instagram.com/rahuldoharepoetry/" },
   { title: "Blog", path: "https://cyborgcoding007.blogspot.com/" },
-  { title: "Contact", path: "#contact" },
 ];
 
 export default function Navbar() {
@@ -44,7 +43,7 @@ export default function Navbar() {
   return (
     <div className="sticky top-0 z-50">
       <div className="text-white/80 pt-2 bg-black/50 backdrop-blur-sm">
-        <div className="hidden md:flex items-center px-4 w-full">
+        <div className="hidden md:flex items-center px-4 w-full justify-center">
           <ul className="flex flex-row p-4 space-x-8">
             {navLinks.map((link, index) => (
               <li key={index}>
