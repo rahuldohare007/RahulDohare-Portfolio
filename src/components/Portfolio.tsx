@@ -45,11 +45,11 @@ const projects = [
 
 export default function Portfolio() {
   return (
-    <div
-      className="text-white bg-gradient-to-b from-black to-[#381a5f] py-18 mt-16"
-      id="projects"
-    >
-      <h1 className="text-white text-6xl w-full text-center font-semibold my-2">
+    <div className="text-white bg-gradient-to-b from-black to-[#381a5f] py-18 mt-16">
+      <h1
+        className="text-white text-6xl w-full text-center font-semibold my-2"
+        id="projects"
+      >
         Selected <span className="text-orange-400 ml-4">Projects</span>
       </h1>
 
@@ -61,16 +61,26 @@ export default function Portfolio() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.25 }}
-            className={`mt-4 flex flex-col ${index % 2 === 1 ? "md:flex-row-reverse gap-12" : "md:flex-row"}`}
+            className={`mt-4 flex flex-col ${
+              index % 2 === 1 ? "md:flex-row-reverse gap-12" : "md:flex-row"
+            }`}
           >
             <div className="space-y-2 max-w-[550px]">
               <h2 className="text-7xl my-4 text-white/70">{`0${index + 1}`}</h2>
               <h2 className="text-4xl">{project.title}</h2>
-              <p className="text-lg text-white/70 break-words p-4">{project.desc}</p>
-              <p className="text-xl text-orange-400 font-semibold">{project.devStack}</p>
+              <p className="text-lg text-white/70 break-words p-4">
+                {project.desc}
+              </p>
+              <p className="text-xl text-orange-400 font-semibold">
+                {project.devStack}
+              </p>
               <div className="w-64 h-[1px] bg-gray-400 my-4">
-                <a href={project.link} className="mr-6">Link</a>
-                <a href={project.git} className="mr-6">Git</a>
+                <a href={project.link} className="mr-6">
+                  Link
+                </a>
+                <a href={project.git} className="mr-6">
+                  Git
+                </a>
               </div>
             </div>
 

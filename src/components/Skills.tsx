@@ -39,9 +39,9 @@ const skillIcons = [
 ];
 export default function Skills() {
   return (
-    <div className="bg-[linear-gradient(to_top,#000,#381a5f_80%)] py-20" id="#skills">
+    <div className="bg-[linear-gradient(to_top,#000,#381a5f_80%)] py-20">
       <div className="text-white w-[400px] md:min-w-[950px] mx-auto p-8 text-center ">
-        <h2 className="text-6xl font-bold mb-4">What I Do</h2>
+        <h2 className="text-6xl font-bold mb-4" id="skills">What I Do</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 ">
           {skillIcons.map((skill, index) => (
             <div
