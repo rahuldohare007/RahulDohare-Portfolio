@@ -8,8 +8,8 @@ import finance from "../assets/finance.png";
 
 export default function About() {
   return (
-    <div className="max-w-[1200px] mx-auto bg-black" id="about">
-      <h1 className="text-white text-6xl w-[320px] mx-auto font-semibold p-4 mb-4">
+    <div className="max-w-[1200px] mx-auto bg-black pt-12" id="about">
+      <h1 className="text-white text-6xl w-[320px] mx-auto font-semibold p-4 mb-12">
         About <span className="text-orange-400">Me</span>
       </h1>
 

@@ -45,9 +45,9 @@ const projects = [
 
 export default function Portfolio() {
   return (
-    <div className="text-white bg-gradient-to-b from-black to-[#381a5f] py-18 mt-16" id="projects">
+    <div className="text-white bg-gradient-to-b from-black to-[#381a5f] py-8 mt-28" id="projects">
       <h1
-        className="text-white text-6xl w-full text-center font-semibold my-2"
+        className="text-white text-6xl w-full text-center font-semibold my-12"
       >
         Selected <span className="text-orange-400 ml-4">Projects</span>
       </h1>
@@ -83,7 +83,7 @@ export default function Portfolio() {
               </div>
             </div>
 
-            <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center mt-8">
               <Image
                 src={project.scr}
                 alt={project.title}
