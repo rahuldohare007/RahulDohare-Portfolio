@@ -1,10 +1,10 @@
 "use client";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import project1 from "../assets/proj1.jpg";
-import project2 from "../assets/proj2.jpg";
+import project1 from "../assets/proj1.png";
+import project2 from "../assets/proj2.png";
 import project3 from "../assets/proj3.png";
-import project4 from "../assets/proj4.jpg";
+import project4 from "../assets/proj4.png";
 
 const projects = [
   {
@@ -87,7 +87,7 @@ export default function Portfolio() {
               <Image
                 src={project.scr}
                 alt={project.title}
-                className="h-[350px] w-[500px] object-cover border rounded border-gray-700"
+                className="h-[350px] w-[750px] object-cover border rounded border-gray-700"
               />
             </div>
           </motion.div>

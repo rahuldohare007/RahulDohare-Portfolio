@@ -22,7 +22,7 @@ export default function Footer() {
         <a href="https://www.instagram.com/cyborgcoding" className="hover:text-red-700">
           <FaInstagram size={24} />
         </a>
-        <a href="https://github.com/rahuldohare007" className="hover:text-red-700">
+        <a href="https://github.com/rahuldohare007" className="hover:text-gray-500">
           <FaGithub size={24} />
         </a>
         <a href="https://www.x.com/rahuldoharepoet" className="hover:text-blue-600">
